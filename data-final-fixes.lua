@@ -54,7 +54,7 @@ items_whitelist["electronic-circuit"] = false
 
 for item, doIt in pairs(items_whitelist) do
 	local name = "appp-craft-" .. item
-	local itemData = flib_prototypes.find("item", item)
+	local itemData = flib_prototypes.find("item", item)  --[[@as data.ItemPrototype]]
 	if not doIt then
 		goto continue
 	end
@@ -73,6 +73,7 @@ for item, doIt in pairs(items_whitelist) do
 			icons = {
 				{
 					icon = itemData.icon,
+					icon_size = itemData.icon_size
 				},
 			}
 		elseif itemData.icons then
