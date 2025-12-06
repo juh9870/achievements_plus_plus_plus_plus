@@ -54,8 +54,11 @@ items_whitelist["electronic-circuit"] = false
 
 for item, doIt in pairs(items_whitelist) do
 	local name = "appp-craft-" .. item
-	local itemData = flib_prototypes.get("item", item)
-	if not itemData or not doIt then
+	local itemData = flib_prototypes.find("item", item)
+	if not doIt then
+		goto continue
+	end
+	if not itemData then
 		log("Item `" .. item .. "` is not present despite being craftable")
 		goto continue
 	end
