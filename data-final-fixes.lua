@@ -82,8 +82,11 @@ for item, doIt in pairs(items_whitelist) do
 		else
 			icons = {}
 		end
-		local icon_scale = 0.75
 		for _, icon in ipairs(icons) do
+			local icon_scale = 0.75
+			if icon.icon_size and icon.icon_size > 64 then
+				icon_scale = icon_scale * 64 / icon.icon_size
+			end
 			if icon.scale then
 				icon.scale = icon.scale * icon_scale
 			else
