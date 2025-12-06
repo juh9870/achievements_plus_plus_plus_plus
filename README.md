@@ -1,5 +1,7 @@
-[![Release](https://github.com/fgardt/factorio-mod-template/actions/workflows/release.yml/badge.svg?branch=main)](https://github.com/fgardt/factorio-mod-template/actions/workflows/release.yml)
-<!--                           ^======[REPLACE THIS]======^                                                                          ^======[REPLACE THIS]======^  -->
+[![Release](https://github.com/com/juh9870/achievements_plus_plus_plus_plus/actions/workflows/release.yml/badge.svg?branch=main)](https://github.com/com/juh9870/achievements_plus_plus_plus_plus/actions/workflows/release.yml)
+
+
+A factorio mod that generates an achievement for creating every craftable item in the game, incluidng 1000 and 1000000 variants
 
 # factorio-mod-template
 

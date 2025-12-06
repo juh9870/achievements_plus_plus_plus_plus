@@ -1,13 +1,14 @@
 {
-  "name": "[internal-mod-name]",
-  "version": "0.0.0",
-  "title": "[MOD DISPLAY NAME]",
-  "author": "[YOUR MODS.FACTORIO.COM USERNAME]",
-  "homepage": "[HOMEPAGE/REPO URL]",
-  "description": "[SHORT DESCRIPTION]",
+  "name": "achievements_plus_plus_plus_plus",
+  "version": "1.0.0",
+  "title": "Achievements++++",
+  "author": "juh9870",
+  "homepage": "https://github.com/juh9870/achievements_plus_plus_plus_plus",
+  "description": "Mod that adds a little bit of new achievements to spice up Factorio runs",
   "factorio_version": "2.0",
   "dependencies": [
-    "base"
+    "base",
+    "flib"
   ],
   "quality_required": false,
   "rail_bridges_required": false,
